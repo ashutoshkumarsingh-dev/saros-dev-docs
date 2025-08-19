@@ -1,0 +1,15 @@
+{
+  "name": "saros-examples-ts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "swap": "node src/swap-saros.js",
+    "add:liq": "node src/add-liquidity.js",
+    "stake": "node src/stake.js"
+  },
+  "dependencies": {
+    "@saros-finance/sdk": "^2.4.0",
+    "@solana/web3.js": "^1.88.0",
+    "bn.js": "^5.2.0"
+  }
+}
